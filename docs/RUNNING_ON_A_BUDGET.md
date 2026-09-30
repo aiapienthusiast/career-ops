@@ -296,7 +296,7 @@ When choosing a budget-friendly model, you need strong reasoning capabilities to
 > OPENAI_API_KEY=your_requesty_key \
 > node openai-eval.mjs --file ./jds/job.txt
 > ```
-> [Cheaper Inference](https://cheaperinference.com) (`https://api.cheaperinference.com/v1`) is an OpenAI-compatible gateway that works the same way. Each model costs 15–60% less than the list price of its lab. Model ids are bare, such as `gpt-5.4-mini`, `claude-sonnet-5` or `deepseek-v4-flash` (see the [model list](https://cheaperinference.com/#models)). Get a key at [cheaperinference.com/signup](https://cheaperinference.com/signup):
+> Cheaper Inference (`https://api.cheaperinference.com/v1`) is an OpenAI-compatible gateway that works the same way. Model ids are bare (no vendor prefix), such as `gpt-5.4-mini`:
 > ```bash
 > OPENAI_BASE_URL=https://api.cheaperinference.com/v1 \
 > OPENAI_MODEL=gpt-5.4-mini \
